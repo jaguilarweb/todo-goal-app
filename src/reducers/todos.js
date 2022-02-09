@@ -4,8 +4,8 @@ import {
   TOGGLE_TODO
 } from '../actions/todos'
 
-/* import { RECEIVE_DATA } from '../actions/share'
- */
+import { RECEIVE_DATA } from '../actions/share'
+
 
 export default function todos (state = [], action) {
   switch(action.type){
